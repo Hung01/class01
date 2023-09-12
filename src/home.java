@@ -68,6 +68,7 @@ public class home {
 
         ArrayList<Person> classmate = new ArrayList<>(); // 存储Person的ArrayList
 
+        Bag<Integer> numbers = new Bag<>(10);
 
 
         // 强制类型转换
@@ -79,6 +80,7 @@ public class home {
         y = 200;
         b = (byte) y;
         System.out.println(b);
+
 
     }
 
